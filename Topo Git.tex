@@ -1,28 +1,26 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{report}
 % Options possibles : 10pt, 11pt, 12pt (taille de la fonte)
 %                     oneside, twoside (recto simple, recto-verso)
 %                     draft, final (stade de développement)
 
 \input{preamble}
-
-\title{Topo Git}           		% Les paramètres du titre : titre, auteur, date
-%\author{Jean-Loup H.}					% on peut ajouter \and Co-auteur
-\date{}                       % La date n'est pas requise (la date du
-                              % jour de compilation est utilisée si rien d'autres n'est spécifié)
-
-%\sloppy                       % Ne pas faire déborder les lignes dans la marge
+%\sloppy                        % Ne pas faire déborder les lignes dans la marge
 \input{glossaire}
+
+
 \begin{document}
 
-\maketitle                    % Faire un titre utilisant les données
-                              % passées à  \title, \author et \date
-\begin{center}
-	\includegraphics[width=145px,height=57px]{illustrations/6-30-12_Git.jpg}
-\end{center}
-							  % Si on veut un résumé on utilise :
+%\maketitle                     % Faire un titre utilisant les données
+
+\input{pageDeGarde}
+                                % passées à  \title, \author et \date
+%\begin{center}
+%	\includegraphics[width=145px,height=57px]{illustrations/6-30-12_Git.jpg}
+%\end{center}
+							    % Si on veut un résumé on utilise :
 \begin{abstract}
 Git est présent aujourd'hui dans un grand nombre de projets et apparait comme un choix de fait dans une large majorité des projets émergents. Cela s'explique par les innovations qu'il apporte dans le contrôle de version, notamment en terme de souplesse pour le développeur.
-Toutefois, appréhender ce système de contrôle de version \gls{VCS} sous-entend une modification de 
+Toutefois, appréhender ce système de contrôle de version (\gls{VCS}) sous-entend une modification de 
 
 \end{abstract}
 \tableofcontents			  % si on veut une table des matière
